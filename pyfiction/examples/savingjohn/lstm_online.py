@@ -1,5 +1,6 @@
 import logging
-
+import tensorflow
+from tensorflow import keras
 from keras.optimizers import RMSprop
 from keras.utils import plot_model
 from pyfiction.agents.ssaqn_agent import SSAQNAgent
