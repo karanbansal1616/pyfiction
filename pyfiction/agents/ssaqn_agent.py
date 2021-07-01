@@ -8,9 +8,9 @@ from collections import deque
 import numpy as np
 import re
 import tensorflow
-from tensorflow.keras import Input
-from tensorflow.keras.callbacks import TensorBoard
-from tensorflow.python.keras.engine import Model
+from keras import Input
+from keras.callbacks import TensorBoard
+from keras import Model
 
 from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing.text import Tokenizer
