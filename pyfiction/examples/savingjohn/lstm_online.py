@@ -1,8 +1,7 @@
 import logging
-import tensorflow
-from tensorflow import keras
-from keras.optimizers import RMSprop
-from keras.utils import plot_model
+import tensorflow as tf
+from tf.keras.optimizers import RMSprop
+from tf.keras.utils import plot_model
 from pyfiction.agents.ssaqn_agent import SSAQNAgent
 from pyfiction.simulators.games.savingjohn_simulator import SavingJohnSimulator
 from pyfiction.simulators.text_games.simulators.MySimulator import StoryNode
