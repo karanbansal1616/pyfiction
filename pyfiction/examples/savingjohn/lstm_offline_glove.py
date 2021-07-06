@@ -1,6 +1,6 @@
 import logging
-
-from keras.optimizers import SGD
+import tensorflow
+from tensorflow.keras.optimizers import SGD
 from pyfiction.agents.ssaqn_agent import SSAQNAgent
 from pyfiction.simulators.games.savingjohn_simulator import SavingJohnSimulator
 
