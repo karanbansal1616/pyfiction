@@ -1,9 +1,9 @@
 import argparse
 import logging
 import string
-
-from keras.optimizers import RMSprop
-from keras.utils import plot_model
+import tensorflow
+from tensorflow.keras.optimizers import RMSprop
+from tensorflow.keras.utils import plot_model
 from pyfiction.agents.ssaqn_agent import SSAQNAgent
 from pyfiction.simulators.games.catsimulator2016_simulator import CatSimulator2016Simulator
 from pyfiction.simulators.games.machineofdeath_simulator import MachineOfDeathSimulator
