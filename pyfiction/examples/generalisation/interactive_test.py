@@ -1,9 +1,9 @@
 import argparse
 import logging
 
-from keras.models import load_model
-from keras.optimizers import RMSprop
-from keras.utils import plot_model
+from tensorflow.keras.models import load_model
+from tensorflow.keras.optimizers import RMSprop
+from tensorflow.keras.utils import plot_model
 from pyfiction.agents.ssaqn_agent import SSAQNAgent
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
