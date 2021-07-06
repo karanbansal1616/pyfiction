@@ -1,5 +1,5 @@
 from selenium import webdriver
-
+import os
 from pyfiction.simulators.simulator import Simulator
 
 
@@ -12,7 +12,7 @@ class HTMLSimulator(Simulator):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("headless")
         chrome_options.add_argument("disable-gpu")
-        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        self.driver = webdriver.Chrome(os.path.join(os.getcwd(),"Driver","chromedriver"),chrome_options=chrome_options)
 
         self.driver.get('file:///' + self.game.path)
 
