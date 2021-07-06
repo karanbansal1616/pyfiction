@@ -1,6 +1,6 @@
 import argparse
 import logging
-
+import tensorflow
 from tensorflow.keras.models import load_model
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.utils import plot_model
