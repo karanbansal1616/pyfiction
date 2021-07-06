@@ -8,14 +8,14 @@ from collections import deque
 import numpy as np
 import re
 import tensorflow
-from keras import Input
-from keras.callbacks import TensorBoard
-from keras import Model
+from tensorflow.keras import Input
+from tensorflow.keras.callbacks import TensorBoard
+from tensorflow.keras.models import Model
 
-from keras.preprocessing.sequence import pad_sequences
-from keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer
 
-from keras.layers import LSTM, Dense, Embedding, Dot
+from tensorflow.keras.layers import LSTM, Dense, Embedding, Dot
 from selenium.common.exceptions import NoSuchElementException
 
 from pyfiction.agents import agent
